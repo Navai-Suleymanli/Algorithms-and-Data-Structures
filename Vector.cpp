@@ -10,10 +10,10 @@ int main()
     // .back()        ------ returns the last element in the vector
     // .front()       ------ returns the first element in the vector
     // .pop_back()    ------ removes the last element from the vector
-    // .insert(x)     ------ It inserts new elements before the element at the specified position
+    // .insert(x, y)  ------ It inserts a new element y before the element at the specified x position
     // .erase(x)      ------ It is used to remove elements from a vector from the specified position or range.
     // .swap(x)       ------ It is used to swap the contents of one vector with another vector of the same type. Sizes may differ.
-    // .emplace(x) – It extends the container by inserting a new element at the position
+    // .emplace(x)    ------ It extends the container by inserting a new element at the position
 
     
     //The most popular dynamic array is a vector:
