@@ -5,13 +5,18 @@ using namespace std;
 int main()
 {
     //  FUNCTIONS FOR VECTORS:
-    // .push_back(x)  ------ adding an element to the end of vector
+    // .push_back(x)  ------ adding an element to the end of the vector
     // .size()        ------ getting the size of a vector
     // .back()        ------ returns the last element in the vector
-    // .pop_back()    ------ removes the last element from vector
-    // 
+    // .front()       ------ returns the first element in the vector
+    // .pop_back()    ------ removes the last element from the vector
+    // .insert(x)     ------ It inserts new elements before the element at the specified position
+    // .erase(x)      ------ It is used to remove elements from a vector from the specified position or range.
+    // .swap(x)       ------ It is used to swap the contents of one vector with another vector of the same type. Sizes may differ.
+    // .emplace(x) – It extends the container by inserting a new element at the position
+
     
-    // the most popular dynamic array is vector:
+    //The most popular dynamic array is a vector:
     // The following code creates an empty vector and adds three elements to it:
     vector<int> v;
     v.push_back(3); // [3]
@@ -23,7 +28,7 @@ int main()
     cout << v[1] << "\n"; // 2
     cout << v[2] << "\n"; // 5
     
-    // function size() returns the sie of a vector:
+    // function size() returns the size of a vector:
     for (int i = 0; i < v.size(); i++) {
         cout << v[i] << "\n";
     }
@@ -34,7 +39,7 @@ int main()
         cout << x << "\n";
     }
     
-    // the function back returns the last element in the vector
+    //The function back returns the last element in the vector
     cout << v.back() << "\n"; // 2
     
     // function pop_back() removes the last element from the vector
