@@ -6,10 +6,11 @@ int main()
 {
     // it is not possible to access the elements using the [] notation
     // all their elements are distinct
+    // elements are automatically sorted in an increasing order inside set. to sort in decreasing order use this syntax: set<int, greater<int> > s1;
     // .insert(x);    ------ adds an element to the set
     // .count(x)      ------ returns the number of occurrences of an element in the set
     // .erase(x)      ------ removes an element from the set.
-    // .size()        ------ retiurns the size of a set
+    // .size()        ------ returns the size of a set
     
     
     
