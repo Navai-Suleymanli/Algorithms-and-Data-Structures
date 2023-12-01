@@ -6,7 +6,6 @@ int main()
 {
     // multiset ----- The same as set but it can contain multiple instances of an element.
     // it is not possible to access the elements using the [] notation
-    // all their elements are distinct
     // .insert(x);    ------ adds an element to the set
     // .count(x)      ------ returns the number of occurrences of an element in the set
     // .erase(x)      ------ removes an element from the set.
